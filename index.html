@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=0.8">
+  <title>Oscar Fruit</title>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <style>
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(217, 213, 204);
+    background: rgb(53, 45, 64);
+  }
+  h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 30px;
+    font-style: italic;
+  }
+  h1, h2 {
+    font-weight: normal;
+    text-shadow: 0 1px 0 rgba(140, 74, 86, 0.8);
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+  }
+  a {
+    color: rgb(217, 106, 115);
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: 100ms linear 0s;
+    -moz-transition: 100ms linear 0s;
+    transition: 100ms linear 0s;
+  }
+  a:hover {
+    text-shadow: 1px 1px 8px rgba(140, 74, 86, 0.8), -1px -1px 8px rgba(140, 74, 86, 0.8);
+  }
+  #directory {
+    margin: 0 0 80px 0;
+    text-align: center;
+  }
+  </style>
+  <script>
+  setTimeout(function() {
+    var title = document.getElementById('title');
+    title.innerText = title.getAttribute('data-ru');
+  }, 5000 + 10000 * Math.random());
+  </script>
+</head>
+<body>
+<div id="directory">
+<h1 id="title" data-ru="Oscar Fяuit">Oscar Fruit</h1>
+<h2>&rsaquo;&nbsp; Directory of Services &nbsp;&lsaquo;</h2>
+<ul>
+  <li>&mdash;</li>
+</ul>
+</div>
+</body>
+</html>
